@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recherche Operationnel</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/tools.js"></script>
+        <script src="js/printArray.js"></script>
+        <script src="js/system.js"></script>
+        <script src="js/back.js"></script>
+        <script src="js/createObjFunction.js"></script>
+        <script src="js/createContraintes.js"></script>
+        <script src="js/getArray.js"></script>
+        <script src="js/simplex.js"></script>
+        <script src="js/setArray.js"></script>
+        
+    </head>
+    <body>
+    <div id="simpleh" class="title"><h2>Méthode Simplexe </h2></div>
+    <div class="center_widget" id="init">
+        <table border="0" cellpadding="15px">
+            <tr>
+                <td class="title">Nombre des variables :</td>
+                <td>
+                    <input type="button" value="-" onclick="var_dec()" />
+                    <input type="text" value="1" disabled="disabled" id="num_vars" size="7" style="text-align:right" />
+                    <input type="button" value="+" onclick="var_inc()" />
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Nombre des contraintes :</td>
+                <td>
+                    <input type="button" value="-" onclick="cont_dec()" />
+                    <input type="text" value="1" disabled="disabled" id="num_conts" size="7" style="text-align:right" />
+                    <input type="button" value="+" onclick="cont_inc()" />
+                </td>
+            </tr>
+        </table>
+        <input type="button" value=" var et contraint " onclick="setArray()" class="nextstep"/>
+        <script src="js/inc_dec.js"></script>
+    </div>
+    <div class="center_widget" id="array"></div>
+    <div id="table">
+        <h1>Méthode Simplexe</h1>
+        <div id="simp_sys"></div>
+    </div>
+    </body>
+    <footer id="rights">
+        SOUSSANE / NAJIB
+    </footer>
+</html>

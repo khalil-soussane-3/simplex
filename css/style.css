@@ -1,0 +1,129 @@
+.center_widget {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#table h1, #simp_sys {
+	margin: 0 auto;
+	text-align: center;
+	color: rgb(1, 1, 1);
+}
+#graph_array {
+	margin: 50px auto;
+	text-align: center;
+}
+#myCanvas {
+	background-color: rgb(12, 2, 2);
+}
+.ilk-graph-table {
+	width: 50%;
+	border: solid 1px #020606;
+	border-collapse: collapse;
+	border-spacing: 5px;
+	font: normal 13px Arial, sans-serif;
+}
+.ilk-graph-table th {
+	background-color: #010808;
+	border: solid 1px #020e0e;
+	color: #022022;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgb(21, 7, 7);
+	width: 10%;
+	text-align:center;
+}
+.ilk-graph-table td {
+	color: #022022;
+	border: solid 1px #050909;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgb(15, 14, 14);
+	width: 10%;
+	text-align:center;
+}
+.ilk-table {
+	width: 50%;
+	border: solid 1px #131717;
+	border-collapse: collapse;
+	border-spacing: 5px;
+	font: normal 13px Arial, sans-serif;
+}
+.ilk-table th {
+	background-color: #f4e1e1;
+	border: solid 1px #0d0e0e;
+	color: #000000;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgb(12, 11, 11);
+	width: 10%;
+	text-align:center;
+}
+.ilk-table td {
+	background-color: #ffffff;
+	color: #052428;
+	border: solid 1px #000000;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgb(20, 19, 19);
+	width: 10%;
+	text-align:center;
+}
+
+#simpleh {
+	
+	color: rgb(2, 0, 0);
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 1px;
+}
+.title {
+	color: black;
+	min-width: 220px
+}
+.nextstep {
+	color: rgb(0, 0, 0);
+	float: right
+}
+input, select{
+	color: rgb(39, 5, 5);
+}
+
+
+.ilk-table:hover .iam_pivot {
+	background-color: #8cc7c7;
+	color: #37686d;
+}
+html, body {
+	background-repeat: round;
+}
+
+
+li span {
+	font-weight: bold
+}
+table caption {
+	font-size: 1.5em;
+	font-weight: bolder;
+	color: #84bdbb;
+	margin-top: 40px;
+}
+#cyclage {
+	font-size: 1.5em;
+	font-weight: bolder;
+	color: #84bdbb;
+	position: absolute;
+	transform: translate(-50%, 0);
+	margin-bottom: 20px;
+	left: 50%;
+}
+#non_borne, #irrealisable {
+	position: absolute;
+	transform: translate(-50%, 0);
+	margin-bottom: 20px;
+	float: none;
+	display: none;
+	color: white;
+	background-color: #022022;
+	margin-top: 15px;
+	left: 50%;
+	font-size: 1.5em;
+	text-align: center;
+}
